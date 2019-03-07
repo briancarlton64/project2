@@ -1,4 +1,9 @@
-public abstract class MesoAbstract 
+public abstract class MesoAbstract
 {
-   //TODO	
+    MesoStation currentStation;
+
+    public abstract toString();
+    public abstract calAverage();
+    public abstract int[] letterAverage();
+
 }
