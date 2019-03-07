@@ -7,12 +7,6 @@ public class MesoInherit extends MesoAbstract
 		st =m.toString().toCharArray();
 	}
 	@Override
-	public String toString() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
 	public int[] calAverage() {
 		int[] values = new int[3];
 		double sum = 0;
@@ -27,8 +21,7 @@ public class MesoInherit extends MesoAbstract
 
 	@Override
 	public char letterAverage() {
-		// TODO Auto-generated method stub
-		return 0;
+		return (char)calAverage()[0];
 	}
   
 }
