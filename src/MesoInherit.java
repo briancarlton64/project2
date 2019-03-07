@@ -21,9 +21,9 @@ public class MesoInherit extends MesoAbstract
 	/**
 	 * A method to calculate the averages of the st array.
 	 * @return values, an int[] formatted as follows:
-	 * 					int[0] The average (rounded) ascii value of st.
-	 *					int[1] The ceiling of the average.
-	 * 					int[2] The floor of the average.
+	 * 					int[2] The average (rounded) ascii value of st.
+	 *					int[0] The ceiling of the average.
+	 * 					int[1] The floor of the average.
 	 */		
 	@Override
 	public int[] calAverage() {
@@ -48,9 +48,9 @@ public class MesoInherit extends MesoAbstract
 		/**
 		 * Assign the indices of values to the appropriate numerical values.
 		 */
-		values[0] = (int) Math.round(sum/st.length);
-		values[1] = (int) Math.ceil(sum/st.length);
-		values[2] = (int) Math.floor(sum/st.length);
+		values[2] = (int) Math.round(sum/st.length);
+		values[0] = (int) Math.ceil(sum/st.length);
+		values[1] = (int) Math.floor(sum/st.length);
 		return values;
 	}
 	/**
