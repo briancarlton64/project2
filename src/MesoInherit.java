@@ -3,7 +3,6 @@ public class MesoInherit extends MesoAbstract
 	char[] st = new char[4];
 	public MesoInherit(MesoStation m)
 	{
-		currentStation = m;
 		st =m.getStID().toCharArray();
 	}
 	@Override
