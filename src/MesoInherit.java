@@ -11,7 +11,7 @@ public class MesoInherit extends MesoAbstract
 		int[] values = new int[3];
 		double sum = 0;
 		for(char c : st) {
-			sum = (int)c;
+			sum = sum+(int)c;
 		}
 		values[0] = (int) Math.round(sum/st.length);
 		values[1] = (int) Math.ceil(sum/st.length);
