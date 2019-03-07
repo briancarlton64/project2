@@ -1,9 +1,9 @@
 public abstract class MesoAbstract
 {
     MesoStation currentStation;
-
-    public abstract toString();
-    public abstract calAverage();
-    public abstract int[] letterAverage();
+    
+    public abstract String toString();
+    public abstract int[] calAverage();
+    public abstract char letterAverage();
 
 }
