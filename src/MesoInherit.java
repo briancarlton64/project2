@@ -4,7 +4,7 @@ public class MesoInherit extends MesoAbstract
 	public MesoInherit(MesoStation m)
 	{
 		currentStation = m;
-		st =m.toString().toCharArray();
+		st =m.getStID().toCharArray();
 	}
 	@Override
 	public int[] calAverage() {
