@@ -16,9 +16,10 @@ public abstract class MesoAbstract
      * A method to calculate the average value of an array.
      * 
      * @return a int array formatted as follows:
-     * 				int[2] The average (rounded) value.
+     * 				
      * 				int[0] The ceiling of the average.
      * 				int[1] The floor of the average.
+     *				int[2] The average (rounded) value.
      */
 	public abstract int[] calAverage();
 	
