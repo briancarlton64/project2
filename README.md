@@ -63,11 +63,12 @@
   
     public abstract int[] calAverage();
   
-  This method will take the internal st char array and calculate the average ascii value of the chars.
+  This method will take the internal st char array and calculate the average ascii value of the chars. It returns an int array
+  formatted to the project specifications. The array contains the rounded, floor, and ceiling of the average.
   
     public abstract char letterAverage();
     
-  This method will take calAverage[0], the rounded average ascii value, and return the character represented by it.
+  This method will take calAverage()[0], the rounded average ascii value, and return the character represented by it.
   
  # MesoInherit
   
