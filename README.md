@@ -103,3 +103,22 @@
   
   This method takes calAverage()[0], which representes the average ascii value rounded to the nearest whole number, and returns
   the char associated with that value.
+
+ # What Was Learned
+ 
+  This project demonstrated two things: useful manipulation of strings and chars and fundamental concepts of abstract classes.
+  It builds upon Project 1, which was mostly about the manipulation of strings, by building on string manipulation and adding
+  char manipulation as well as abstract classes.
+  
+  The string and char manipulation were rather simplistic in nature, as String has a built in toCharArray() method which will
+  perform the exact function needed. Java also makes char manipulation easier by providing a simple way to represent the char
+  as an ascii code: casting to int. When I began this project I thought I would have to use the wrapper class Character to be
+  able to use an toAscii() method (or something of that nature), but I realized that casting a char to int performed the exact
+  task needed. It was a simple matter then to sum all the ascii values into a double variable, dividing by 4 (the length of the
+  char array), and rounding, flooring, and celing(ing?) the double to ints and put them correctly into a int array as per
+  project specification
+  
+  The abstract section of the lab was demonstrated mostly through the graces of Eclipse, which will kindly tell you that any
+  concrete subclass of an abstract class must implement the abstract methods of the abstract class. As such, defining the
+  needed methods in MesoAbstract allowed eclipse to auto-generate all the neccessary method stubs. It was a simple excercise
+  then to implement the methods, which is mainly discussed in the preceeding paragraph.
