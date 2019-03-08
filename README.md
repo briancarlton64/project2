@@ -1,8 +1,10 @@
 # Project 2
 
-  This project consisted of two problems: solving a problem and learning about abstract classes and methods.
-  Below is a detailed analysis of the problem solving aproach and what was learned about abstract classes.
+  This project consisted of two problems: solving a problem related to string and char manipulation and learning 
+  about abstract classes and methods. Below is a detailed analysis of the problem solving aproach and what was 
+  learned about abstract classes.
   This project was begun and completed on March 7th 2019, over the course of roughly two hours.
+
 # Outline
   
     Classes:
