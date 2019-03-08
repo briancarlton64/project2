@@ -116,7 +116,7 @@
   able to use an toAscii() method (or something of that nature), but I realized that casting a char to int performed the exact
   task needed. It was a simple matter then to sum all the ascii values into a double variable, dividing by 4 (the length of the
   char array), and rounding, flooring, and celing(ing?) the double to ints and put them correctly into a int array as per
-  project specification
+  project specification.
   
   The abstract section of the lab was demonstrated mostly through the graces of Eclipse, which will kindly tell you that any
   concrete subclass of an abstract class must implement the abstract methods of the abstract class. As such, defining the
