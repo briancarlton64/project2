@@ -67,3 +67,36 @@
     
   This method will take calAverage[0], the rounded average ascii value, and return the character represented by it.
   
+ # MesoInherit
+  
+  MesoInherit is a subclass of MesoAbstract. This being the class, it must implement all the abstract methods found within MesoAbstract.
+  In the scope of this project, it would be very easy and possibly simpler to begin with MesoInherit and remove the 
+  unnecessary MesoAbstract, however these projects are not about simplicity and real-world implementation, but rather serve
+  as examples for concepts which will be easier to implement in these simple environments.
+  
+    public class MesoInherit extends MesoAbstract{
+      char[] st = new char[3]
+      public int[] calAverage{
+      ...
+      }
+      public char letterAverage(){
+      ...
+      }
+    }
+  As you can see, MesoInherit's only function is to implement MesoAbstract.
+  
+    char st = new char[3];
+    
+  As per documentation, each MesoStation will have an ID of four characters. If the length were unknown, then this statement
+  would be reduced to a declaration, and the array would be initialized within the constructor where the length of ID would
+  be known.
+  
+    public int[] calAverage(){...}
+  
+  This method overrides and implements the same method found within MesoAbstract. It operates on the st array and returns an
+  int array formatted to the project specification. This format can be found within the source code.
+  
+    public char letterAverage(){...}
+  
+  This method takes calAverage()[0], which representes the average ascii value rounded to the nearest whole number, and returns
+  the char associated with that value.
