@@ -69,7 +69,7 @@
   
  # MesoInherit
   
-  MesoInherit is a subclass of MesoAbstract. This being the class, it must implement all the abstract methods found within MesoAbstract.
+  MesoInherit is a subclass of MesoAbstract. This being the case, it must implement all the abstract methods found within MesoAbstract.
   In the scope of this project, it would be very easy and possibly simpler to begin with MesoInherit and remove the 
   unnecessary MesoAbstract, however these projects are not about simplicity and real-world implementation, but rather serve
   as examples for concepts which will be easier to implement in these simple environments.
